@@ -16,6 +16,7 @@ namespace ConsoleApp1
 {
     internal abstract class EducationalMaterial
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Author { get; set; }
 
